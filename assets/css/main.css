@@ -1010,12 +1010,10 @@ section.special, article.special {
   text-align: center; }
 
 header p {
-  font-family: "Roboto Slab", serif;
-  font-size: 1em;
-  font-weight: 400;
+  font-size: 1em;  
   letter-spacing: 0.075em;
   margin-top: -0.5em;
-  text-transform: uppercase; }
+   }
 
 header.major > :last-child {
 
