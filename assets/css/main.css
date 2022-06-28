@@ -79,7 +79,7 @@ html {
 
 body {
   background: white;
-  background-image: url("../../images/background.JPG") 
+  background-image: url("../../images/background.jpg")
 }
   body.is-preload *, body.is-preload *:before, body.is-preload *:after, body.is-resizing *, body.is-resizing *:before, body.is-resizing *:after {
     -moz-animation: none !important;
@@ -1717,7 +1717,7 @@ button,
   -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   background-color:#8444df; /* changing color COLORING sidebar's background*/
-  background-image: url("https://github.com/JSMarsh813/Portfolio/blob/main/images/waves.png");
+  background-image: url("../../images/waves.png");
   font-size: 0.9em;
   position: relative;
   width: 26em; }
