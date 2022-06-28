@@ -1693,7 +1693,7 @@ button,
     display: block;
     font-size: 1.5em;
     height: 2em;
-    line-height: 2em;
+    line-height: 1.3em;
     opacity: 0.325;
     position: absolute;
     right: 0;
@@ -1717,7 +1717,7 @@ button,
   -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   background-color:#8444df; /* changing color COLORING sidebar's background*/
-  background-image: url("../../images/waves.PNG");
+  background-image: url("https://github.com/JSMarsh813/Portfolio/blob/main/images/waves.png");
   font-size: 0.9em;
   position: relative;
   width: 26em; }
