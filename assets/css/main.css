@@ -1746,7 +1746,7 @@ button,
         margin-bottom: 0;
         padding-bottom: 0; }
     #sidebar > .inner > .alt {  /* top left background color around search box COLORING */
-      background-color:  rgba(134,158,244);
+      background-color:  #8444df;
       border-bottom: 1; /* allows the multicolor gradient on the bottom border */
       margin: -2.22222em 0 4.44444em -2.22222em;
       padding: 2.22222em;
