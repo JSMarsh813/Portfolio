@@ -6,6 +6,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" /> <!--- search bar algolia crawler-->
 	</head>
 	<body class="is-preload">
 
@@ -267,6 +268,19 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+
+			<!-----script for algolia crawler for search bar function-->
+			<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+			<script type="text/javascript">
+			  algoliasearchNetlify({
+			    appId: '6RELJV8I1C',
+			    apiKey: '<YOUR_ALGOLIA_SEARCH_API_KEY>',
+			    siteId: '177f8b61-dcb7-486c-bedf-dd66875ecd79',
+			    branch: 'main',
+			    selector: 'div#search',
+			  });
+			</script>
 
 	</body>
 </html>
