@@ -2106,3 +2106,16 @@ button,
     100% { transform: rotate( 0.0deg) }
   }
   
+section#search button { /* gets rid of purple shadow around the magnifying glass section, was inherited by the form section's input's css */
+  box-shadow: none;
+
+}
+
+section#search button:hover { /* before button was an interactive submit button, but clicking it did nothing. Removed styling to avoid confusing users*/
+  border-image: none;
+  background: none;
+  cursor: default;
+}
+#search input {  /* makes it so the search boxes border stays straight, it looked weird curved. */
+  border-radius: 0;
+}

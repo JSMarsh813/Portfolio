@@ -27,7 +27,7 @@
 
 										<li><a href="https://github.com/JSMarsh813" class="icon brands fa-github"><span class="label">Github</span></a></li>
 															
-										<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+										<li><a href="mailto:janetspellman13@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
 
 										<li><a href="#" class="icon brands fa-angellist"><span class="label">Email</span></a></li>
 									</ul>
@@ -138,7 +138,7 @@
 										<article>
 											<span class="icon solid fa-rocket"></span>
 											<div class="content">
-												<h3>Search Engine Optimization (SEO) (or talk about price brackets, depending on cost and needs) </h3>
+												<h3>Search Engine Optimization (SEO) </h3>
 												<p> Helping you reach the most clients possible by utilizing best practices _____ </p>
 											</div>
 										</article>
@@ -233,13 +233,12 @@
 
 				<!-- Sidebar -->
 					<div id="sidebar">
-						<div class="inner">
+						<div class="inner"><!---class alt makes the background solid, otherwise the background image shows-->
 
-							<!-- Search -->
-								<section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
+							<!-- Search with angolia netlify-->
+								<section id="search" class="alt"> 
+									    <div id="search" type="button"> <!---angolia's netlify search api doesn't work with input, the selector has to be a div with an id of search-->
+										</div> 
 								</section>
 
 							<!-- Menu -->
@@ -274,8 +273,8 @@
 			<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
 			<script type="text/javascript">
 			  algoliasearchNetlify({
-			    appId: '6RELJV8I1C',
-			    apiKey: '<YOUR_ALGOLIA_SEARCH_API_KEY>',
+			    appId: '6RELJV8I1C', /* This is your unique application identifier. It's used to identify you when using Algolia's API.*/
+			    apiKey: 'c41321e097904b80fbd571597c899a32', /* This is the public API key to use in your frontend code. This key is only usable for search queries and sending data to the Insights API.*/
 			    siteId: '177f8b61-dcb7-486c-bedf-dd66875ecd79',
 			    branch: 'main',
 			    selector: 'div#search',
