@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" /> <!--- search bar algolia crawler-->
 	</head>
 	<body class="is-preload">
 
@@ -68,12 +69,12 @@
 					<div id="sidebar">
 						<div class="inner">
 
-							<!-- Search -->
-								<section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
-								</section>
+							
+							<!-- Search with angolia netlify-->
+							<section id="search" class="alt"> 
+								<div id="search" type="button"> <!---angolia's netlify search api doesn't work with input, the selector has to be a div with an id of search-->
+								</div> 
+						</section>
 
 							<!-- Menu -->
 								<nav id="menu">
@@ -101,6 +102,18 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+				<!-----script for algolia crawler for search bar function-->
+				<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+				<script type="text/javascript">
+				  algoliasearchNetlify({
+					appId: '6RELJV8I1C', /* This is your unique application identifier. It's used to identify you when using Algolia's API.*/
+					apiKey: 'c41321e097904b80fbd571597c899a32', /* This is the public API key to use in your frontend code. This key is only usable for search queries and sending data to the Insights API.*/
+					siteId: '177f8b61-dcb7-486c-bedf-dd66875ecd79',
+					branch: 'main',
+					selector: 'div#search',
+				  });
+				</script>
 
 	</body>
 </html>
