@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700&display=swap");
 /*
 	Editorial by HTML5 UP
 	html5up.net | @ajlkn
@@ -1135,12 +1135,12 @@ textarea {
   border: 0;
   display: inline-block;
   position: relative; }
-  .image img {
+  .image video {
     border-radius: 0.375em;
     display: block; }
   .image.left, .image.right {
     max-width: 40%; }
-    .image.left img, .image.right img {
+    .image.left video, .image.right video {
       width: 100%; }
   .image.left {
     float: left;
@@ -1165,12 +1165,12 @@ textarea {
 
 a.image {
   overflow: hidden; }
-  a.image img {
+  a.image video{
     -moz-transition: -moz-transform 0.2s ease;
     -webkit-transition: -webkit-transform 0.2s ease;
     -ms-transition: -ms-transform 0.2s ease;
     transition: transform 0.2s ease; }
-  a.image:hover img {
+  a.image:hover video {
     -moz-transform: scale(1.075);
     -webkit-transform: scale(1.075);
     -ms-transform: scale(1.075);
@@ -1556,7 +1556,7 @@ button,
     .posts article .image {
       display: block;
       margin: 0 0 2em 0; }
-      .posts article .image img {
+      .posts article .image video {
         display: block;
         width: 100%; }
   @media screen and (min-width: 1681px) {
@@ -1941,7 +1941,7 @@ button,
     display: block;
     margin: 0 0 2em 4em;
     width: 50%; }
-    #banner .image img {
+    #banner .image video {
       height: 100%;
       -moz-object-fit: cover;
       -webkit-object-fit: cover;

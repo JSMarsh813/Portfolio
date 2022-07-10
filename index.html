@@ -1,10 +1,11 @@
 <!DOCTYPE HTML>
 
-<html>
+<html lang="en">
 	<head>
 		<title>Janet Spellman's Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="Main Page of Janet Spellman's web development portfolio where personalized web page creation services are offered and described">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" /> <!--- search bar algolia crawler-->
 	</head>
@@ -21,15 +22,15 @@
 								<header id="header">
 								
 									<ul class="icons">
-										<li><a href="https://twitter.com/Janetthedev" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="https://twitter.com/Janetthedev" class="icon brands fa-twitter" aria-label="Twitter"><span class="label">Twitter</span></a></li>
 
-										<li><a href="https://www.linkedin.com/in/janet-spellmanmarsh/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+										<li><a href="https://www.linkedin.com/in/janet-spellmanmarsh/" class="icon brands fa-linkedin" aria-label="LinkedIn logo"><span class="label">LinkedIn</span></a></li>
 
-										<li><a href="https://github.com/JSMarsh813" class="icon brands fa-github"><span class="label">Github</span></a></li>
+										<li><a href="https://github.com/JSMarsh813" class="icon brands fa-github" aria-label="Github logo"><span class="label">Github</span></a></li>
 															
-										<li><a href="mailto:janetspellman13@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+										<li><a href="mailto:janetspellman13@gmail.com" class="icon fa-envelope" aria-label="email-icon"><span class="label">Email</span></a></li>
 
-										<li><a href="#" class="icon brands fa-angellist"><span class="label">Email</span></a></li>
+										<li><a href="#" class="icon brands fa-angellist" aria-label="Angellist icon"><span class="label">Angellist</span></a></li>
 									</ul>
 								</header>
 
@@ -42,13 +43,13 @@
 											<h1>Hi There! <span class="wave" alt="waving animated hand">&#128075; </span> I'm <b class="specialemphname">Janet</b>, Your Next Software Engineer. <br />
 											</h1>
 
-											<p> Whether through work or volunteering, I enjoy helping make other's lives a bit brighter and easier. Currently, I help businesses strengthen their digital presence with attention-grabbing, accessible, and functional websites.</p>
+											<p> Whether through work or volunteering, I enjoy helping make other's lives a bit brighter and easier. Nowadays, I enjoy helping businesses strengthen their digital presence with attention-grabbing, accessible, and functional websites.</p>
 												
 												<p> You put an immense amount of hard work and care into your business. You deserve to have a website which reflects that and makes clients excited to become a repeat customer!</p>
 										</header>
 										
 										<ul class="actions">
-											<li><a href="about-me.html" class="button big">About Me</a></li>
+											<li><a href="about-me.html" class="button big" aria-label="About me page button">About Me</a></li>
 										</ul>
 
 									</div>
@@ -69,7 +70,14 @@
 									</header>
 									<div class="posts">
 										<article>
-											<a href="#" class="image"><img src="images/nasa.gif" alt="" /></a>
+											 <video controls autoplay muted loop width="100%">
+												
+												<source src="images/nasa.webm" alt="" type="video/webm" class="image">
+
+												Sorry, your browser doesn't support embedded videos.
+											</video>
+										
+
 											<h3>NASA's Picture of the Day</h3>
 											<h3> JavaScript, HTML5, CSS</h3>
 
@@ -81,7 +89,15 @@
 										</article>
 										
 										<article>
-											<a href="#" class="image"><img src="images/leaping-rabbit.gif" alt="" /></a>
+
+											<video controls autoplay muted loop width="100%">
+												
+												<source src="images/leaping-rabbit.webm" alt="" type="video/webm" class="image">
+
+												Sorry, your browser doesn't support embedded videos.
+											</video>
+									
+											
 											<h3>The Leaping Rabbit</h3>
 											<h3> HTML5, CSS</h3>
 											<p> A one-page, responsive website for a unique rabbit themed restaurant called The Leaping Rabbit. </p>
@@ -91,18 +107,25 @@
 										</article>
 										
 										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
+											<a href="#" class="image"><img src="images/pic05.jpg" alt="Critical Role image" /></a>
 											<h3>Critical Role Character Selector </h3>
 											<h3> Javascript, Node.js, Express.js, HTML5, CSS</h3>
 											<p>A full stack web application where users can enter a Critical Role character's name to recieve character information from the mongoDB server.</p>
 											
 											<ul class="actions">
-												<li><a href="#" class="button">View Live!</a></li>
+												<li><a href="#" class="button" alt="View live button">View Live!</a></li>
 											</ul>
 										</article>
 
 										<article>
-											<a href="#" class="image"><img src="images/pokemon-gym.gif" alt="" /></a>
+
+											<video controls autoplay muted loop width="100%">
+												
+												<source src="images/pokemon-gym.webm" alt="" type="video/webm" class="image" >
+
+												Sorry, your browser doesn't support embedded videos.
+											</video>
+
 											<h3>Level Ground Pokemon Gym</h3>
 											<h3> HTML5, CSS</h3>
 											<p> Responsive mock site of a pokemon gym's services.</p>
@@ -217,7 +240,7 @@
 							<ul class="actions">
 								
 								<li><input type="submit" value="Send A Message" /></li>
-								<div data-netlify-recaptcha="true"></div>
+								<li> <div data-netlify-recaptcha="true"></div> </li>
 								
 							</ul>
 						</form>
@@ -265,7 +288,6 @@
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
 
