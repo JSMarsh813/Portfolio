@@ -2119,3 +2119,11 @@ section#search button:hover { /* before button was an interactive submit button,
 #search input {  /* makes it so the search boxes border stays straight, it looked weird curved. */
   border-radius: 0;
 }
+
+
+.allLanguages {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-around;
+
+}
