@@ -1715,7 +1715,7 @@ button,
   -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   background-color:rgb(64, 27, 122); /* changing color COLORING sidebar's background*/
-  background-image: url("../../images/waves.png");
+ background-image: url("../../images/waves.png"); 
   font-size: 0.9em;
   position: relative;
   width: 26em; }
@@ -1997,6 +1997,7 @@ button,
 
 /* Menu */
 #menu ul {
+  background-color: rgb(64, 27, 122);
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
