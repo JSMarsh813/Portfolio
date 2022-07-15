@@ -8,8 +8,10 @@
 		<meta name="description" content="Main Page of Janet Spellman's web development portfolio where personalized web page creation services are offered and described">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" /> <!--- search bar algolia crawler-->
+		
+
 	</head>
-	<body class="is-preload">
+	<body class="is-preload" id="nightmode">
 
 		<!-- Wrapper, right side-->
 			<div id="wrapper">
@@ -17,6 +19,7 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
+
 
 							<!-- Header,  Social Media icons -->
 								<header id="header">
@@ -31,7 +34,23 @@
 										<li><a href="mailto:janetspellman13@gmail.com" class="icon fa-envelope" aria-label="email-icon"><span class="label">Email</span></a></li>
 
 										<li><a href="#" class="icon brands fa-angellist" aria-label="Angellist icon"><span class="label">Angellist</span></a></li>
+
+										<li> 	
+										<div>
+											<input type="checkbox" class="checkbox" id="checkbox">
+
+										  <label for="checkbox" class="label">
+											<i class="fas fa-moon"></i>
+											<i class='fas fa-sun'></i>
+											<div class='ball'>
+
+										  </label>
+										</div>
+									</li>
 									</ul>
+
+								
+
 								</header>
 
 							<!-- Banner, welcome page -->
@@ -52,7 +71,7 @@
 										</header>
 										
 										<ul class="actions">
-											<li><a href="about-me.html" class="button big" aria-label="About me page button">About Me</a></li>
+											<li><a href="about-me.html"  class="button big" aria-label="About me page button">About Me</a></li>
 										</ul>
 
 									</div>
@@ -69,7 +88,7 @@
 								<!-- Projects Section -->
 								<section>
 									<header class="major">
-										<h2>Latest Projects</h2>
+										<h2 >Latest Projects </h2>
 									</header>
 									<div class="posts">
 										<article>
@@ -82,8 +101,8 @@
 											</video>
 										
 
-											<h3>NASA's Picture of the Day</h3>
-											<h3> JavaScript, HTML5, CSS</h3>
+											<h3">NASA's Picture of the Day</h3>
+											<h3"> JavaScript, HTML5, CSS</h3>
 
 											<p> Enter a date and recieve a picture, video or game of the day directly from NASA's API. Select the date, 6/19/2022, to play Super Planet Crash! </p>
 
@@ -147,7 +166,7 @@
 							<!-- Services Section -->
 								<section>
 									<header class="major">
-										<h2 id="servicessection">Services</h2>
+										<h2 id="servicessection" >Services</h2>
 									</header>
 									<div class="features">
 										<article>
@@ -233,6 +252,7 @@
 											<li>HTML</li>
 											<li>CSS</li>
 											<li>JavaScript</li>
+											<li>React</li>
 										</ul>
 									</section>
 
@@ -241,7 +261,6 @@
 										<h2> Back-End </h2>
 										<ul>
 											<li>NodeJs</li>
-											<li>React</li>
 											<li> Express</li>
 											<li> MongoDB </li>
 										</ul>
@@ -263,13 +282,29 @@
 								
 					<section> <!----contact form section-->
 
-						<header class="major" id="getintouch">
+						
+						<header class="major contactandsocials" id="getintouch">
 							<h2>Get in touch</h2>
+					
+								
+							<ul class="icons">
+								<li><a href="https://twitter.com/Janetthedev" class="icon brands fa-twitter" aria-label="Twitter"><span class="label">Twitter</span></a></li>
+
+								<li><a href="https://www.linkedin.com/in/janet-spellmanmarsh/" class="icon brands fa-linkedin" aria-label="LinkedIn logo"><span class="label">LinkedIn</span></a></li>
+
+								<li><a href="https://github.com/JSMarsh813" class="icon brands fa-github" aria-label="Github logo"><span class="label">Github</span></a></li>
+													
+								<li><a href="mailto:janetspellman13@gmail.com" class="icon fa-envelope" aria-label="email-icon"><span class="label">Email</span></a></li>
+
+								<li><a href="#" class="icon brands fa-angellist" aria-label="Angellist icon"><span class="label">Angellist</span></a></li>
+							</ul>
 						</header>
+			
+
 						<p>All fields marked with * are required</p>
 						<form name="contact" method="POST"  data-netlify="true" > <!---- data-netlify-recaptcha="true"---CAPTCHA--->
 							<div class="fields">
-								<div class="field">
+								<div class="field ">
 									<label for="name">* Name</label>
 									<input type="text" name="name" id="name" required/>
 								</div>
@@ -307,11 +342,17 @@
 
 				<!-- Sidebar -->
 					<div id="sidebar">
+
+					
+
+						  
 						<div class="inner"><!---class alt makes the background solid, otherwise the background image shows-->
 
+							
+
 							<!-- Search with angolia netlify-->
-								<section id="search" class="alt"> 
-									    <div id="search" type="button"> <!---angolia's netlify search api doesn't work with input, the selector has to be a div with an id of search-->
+								<section class="alt"> 
+									<!------>    <div> <!---angolia's netlify search api doesn't work with input, the selector has to be a div with an id of search-->
 										</div> 
 								</section>
 
