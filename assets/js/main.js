@@ -262,7 +262,7 @@
 
 checkbox.addEventListener('change', ()=>{
   document.body.classList.toggle('dark');
-  document.querySelector('.colorchangenight').classList.toggle('dark');
+
 
 })
 
