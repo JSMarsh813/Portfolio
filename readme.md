@@ -6,7 +6,13 @@ Tech: JavaScript, CSS, HTML
 
 ## Optimizations
 
+I did add the Algolia Crawler to a search bar which had worked, however I decided to remove it as it didn't add much to the site's function.
+
 ## Lessons Learned
+
+How to create a dark and light mode and how to show an animated gradient when a button is hovered over. How to use netlify to create forms that submit form queries to a given email address. 
+
+Learned how to use the Algolia Crawler. 
 
 Credits:
 
