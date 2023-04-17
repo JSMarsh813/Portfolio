@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "[portfolio2.webm video showing how the portfolio looks and how responsive it is](https://user-images.githubusercontent.com/101692334/187394543-311bdac5-19b2-4094-ad3b-de2903b166fc.webm)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSMarsh813/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JSMarsh813/Portfolio/issues"
+  },
+  "homepage": "https://github.com/JSMarsh813/Portfolio#readme"
+}
